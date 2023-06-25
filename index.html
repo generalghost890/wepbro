@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Machiavellian</title>
+  <meta name="description" content="I am a proffesinal proftolio website for @QuadriIIion">
+  <meta name="author" content="Yousif Omed" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="demo/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" type="image/png" href="demo/logo.jpg">
+  <style>
+    /* Style for the code text */
+    .code-text {
+      font-size: 14px;
+      color: #fff;
+      margin-top: 10px;
+      animation: fade-in 1s ease-in-out;
+    }
+    
+/* Style for the icons container */
+.icons-container {
+  position: absolute;
+  bottom: 60px;
+  left: 25px;
+}
+
+/* Style for individual icons */
+.icons-container .icon {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+/* Style for the follow and share buttons */
+.buttons-wrap {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.buttons-wrap .follow-wrap,
+.buttons-wrap .share-wrap {
+  display: inline-block;
+}
+
+.buttons-wrap .follow,
+.buttons-wrap .share {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.buttons-wrap .follow {
+  background-color: #000;
+  border: 2px solid #ffaaaa;
+}
+
+.buttons-wrap .follow:hover {
+  background-color: #be3a50;
+  border: 2px solid #000000;
+}
+
+.buttons-wrap .share {
+  background-color: #ba0e42;
+  border: 2px solid rgb(58, 0, 0);
+}
+
+.buttons-wrap .share:hover {
+  background-color: #7d3c94;
+  border: 2px solid #000;
+}
+  </style>
+</head>
+<body>
+  <!-- Rounded rectangle with text -->
+  <div class="rounded-rectangle">
+    <!-- Menu toggle button -->
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <!-- Envelope button -->
+    <a href="mailto:PrivaPact@gmail.com" class="envelope-button">
+      <i class="far fa-envelope"></i>
+    </a>
+    <!-- Picture -->
+    <div class="picture">
+      <img src="berserk.jpg" alt="Profile Picture">
+    </div>
+    <p class="machiavellian">Machiavellian</p>
+    <p class="quadriiiion">@QuadriIIion</p>
+    <!-- Additional text -->
+    <div class="about-text">
+      About
+    </div>
+    <div class="additional-text">
+      Full Stack Developer | Puppet Master
+
+    </div>
+    <!-- Icons container -->
+    <div class="icons-container">
+      <a href="https://github.com/PrivaPact" class="icon">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://telegram.me/QuadriIIion" class="icon">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://twitter.com/PrivaPact" class="icon">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://instagram.com/PrivaPact" class="icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Code text -->
+    <div class="code-text">
+      Python | Java | HTML | CSS | JavaScript
+    </div>
+    <!-- Follow and share buttons -->
+    <div class="buttons-wrap">
+      <div class="follow-wrap">
+        <a href="https://t.me/PrivaPact" class="follow">Follow</a>
+      </div>
+      <div class="share-wrap">
+        <a href="https://t.me/MachiaveIian" class="share">Contact</a>
+      </div>
+    </div>
+    <!-- Menu list -->
+    <ul class="menu-list" id="menuList">
+      <li><a class="active" href="https://instagram.com/PrivaPact" target="_blank" rel="noopener noreferrer">Insta</a></li>
+      <li><a class="active" href="https://github.com/PrivaPact" target="_blank" rel="noopener noreferrer">Github</a></li>
+      <li><a class="active" href="https://t.me/mwmmmbot" target="_blank" rel="noopener noreferrer">API Scraper</a></li>
+      <li><a class="active" href="https://t.me/wqubot" target="_blank" rel="noopener noreferrer">Session Gen</a></li>
+      <li><a class="active" href="https://t.me/yvyyybot">Termux hacker</a></li>
+      <li><a class="active" href="https://t.me/PrivaPact">Telegram</a></li>
+      <li><a class="active" href="https://t.me/PrivaPact/358">Bots</a></li>
+    </ul>
+  </div>
+
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+
+  <!-- scripts -->
+  <script src="demo/js/particles.js"></script>
+  <script src="demo/js/app.js"></script>
+  <script>
+    function toggleMenu() {
+      var menuList = document.getElementById("menuList");
+      menuList.style.display = menuList.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</body>
+</html>
