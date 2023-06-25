@@ -123,8 +123,8 @@ canvas{
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          width: 400px;
-          height: 540px;
+          width: 360px;
+          height: 500px;
           background-color: #ccc;
           border-radius: 10px;
           margin: 0 auto; /* Centers the element horizontally */
@@ -136,8 +136,8 @@ canvas{
     
         /* Style for the picture */
         .picture {
-          width: 120px;
-          height: 120px;
+          width: 95px;
+          height: 95px;
           border-radius: 50%;
           overflow: hidden;
           border: 5px solid #000;
