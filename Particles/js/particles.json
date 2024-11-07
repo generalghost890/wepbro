@@ -105,7 +105,7 @@
     }
   },
   "retina_detect": true,
-  "config_demo": {
+  "config_Particles": {
     "hide_card": false,
     "background_color": "#292929",
     "background_image": "",
